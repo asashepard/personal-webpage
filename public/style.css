@@ -21,7 +21,21 @@ ul {
     position: absolute;
 }
 
-li a {
+#button {
+    display: block;
+    color: #83CCB5;
+    font-size: 20px;
+    font-family: Andale Mono, monospace;
+    padding: 8px 12px;
+    width: fit-content;
+}
+
+#button:hover {
+    background-color: #83CCB5;
+    color: #3B3B3B;
+}
+
+ul li a {
     display: block;
     color: #000;
     font-size: 20px;
@@ -31,7 +45,7 @@ li a {
     width: fit-content;
 }
 
-li a:hover {
+ul li a:hover {
     background-color: #3B3B3B;
     color: #83CCB5;
 }
@@ -66,3 +80,5 @@ p {
     margin: auto;
     background-color: #3B3B3B;
 }
+
+#middle{display: flex; justify-content: center;}
