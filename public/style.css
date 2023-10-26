@@ -81,4 +81,7 @@ p {
     background-color: #3B3B3B;
 }
 
-#middle{display: flex; justify-content: center;}
+#middle {
+    display: flex;
+    justify-content: center;
+}
